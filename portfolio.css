@@ -2,5 +2,50 @@
 
 .layout{
     display: grid;
-    
+    min-height: 100vh;
+
+    grid-template-rows: 1.5fr 0.7fr 2.5fr 2.5fr 1fr;
+    grid-template-columns: 1% 3fr 2fr 1%;
+
+    grid-template-areas:
+    ". header header ."
+    ". nav nav ."
+    ". main side ."
+    ". main2 side2 ."
+    ". footer footer .";
+}
+
+header{
+    grid-area: header;
+    background-color: brown;
+}
+
+nav{
+    grid-area: nav;
+    background-color: aquamarine;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(3, 133, 94);
+}
+
+.main2{
+    grid-area: main2;
+    background-color: blueviolet;
+}
+
+aside{
+    grid-area: side;
+    background-color: rgb(165, 4, 4);
+}
+
+.side2{
+    grid-area: side2;
+    background-color: yellowgreen;
+}
+
+footer{
+    grid-area: footer;
+    background-color: blue;
 }
