@@ -18,6 +18,14 @@
 header{
     grid-area: header;
     background-color: brown;
+    text-align: center;
+}
+
+button{
+    float: left;
+    margin: 8px;
+    background-color: brown;
+    color: white;
 }
 
 nav{
@@ -28,6 +36,10 @@ nav{
 main{
     grid-area: main;
     background-color: rgb(3, 133, 94);
+}
+
+image{
+    
 }
 
 .main2{
@@ -48,4 +60,23 @@ aside{
 footer{
     grid-area: footer;
     background-color: blue;
+}
+
+
+
+@media (max-width: 600px) {
+    .layout{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1% 1fr 1%;
+
+        grid-template-areas: 
+        ". header ."
+        ". nav ."
+        ". main ."
+        ". side ."
+        ". main2 ."
+        ". side2 ."
+        ". footer .";
+    }
 }
