@@ -18,9 +18,9 @@
 
 header{
     grid-area: header;
-    background-color: brown
-    
-    
+    background-color: rgb(141, 9, 9);
+    border:  10px solid rgb(141, 9, 9);
+    border-radius: 0px 0px 30px 30px;
 }
 
 button{
@@ -41,7 +41,7 @@ main{
     background-color: brown;
     display: flex;
     justify-content: center;
-    align-items: 0center;
+    align-items: center;
 }
 
 
@@ -107,6 +107,25 @@ footer{
         ". main2 ."
         ". footer .";
 
-        
+        header{
+            grid-area: header;
+            background-color: rgb(141, 9, 9);
+            border:  5px solid rgb(141, 9, 9);
+            border-radius: 0px 0px 15px 15px;
+        }
+
+        button{
+            float: left;
+            margin: 2px;
+            background-color: brown;
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
     }
+}
+@media (min-width: 600px) {
+    .abc80{
+        display: none;
+    }
+    
 }
