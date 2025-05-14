@@ -21,6 +21,7 @@ header{
     background-color: rgb(141, 9, 9);
     border:  10px solid rgb(141, 9, 9);
     border-radius: 0px 0px 30px 30px;
+    text-align: 50%;
 }
 
 button{
@@ -32,9 +33,9 @@ button{
 
 nav{
     grid-area: nav;
-    background-color: brown;
-    
+    background-color: rgb(255, 255, 255);
 }
+
 
 main{
     grid-area: main;
@@ -82,6 +83,7 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(images/fire-flames-on-a-transparent-background-free-png.webp);
 }
 
 footer{
@@ -120,6 +122,11 @@ footer{
             background-color: brown;
             color: rgb(0, 0, 0);
             font-size: 10px;
+        }
+
+        .side2{
+            grid-area: side2;
+            background-image: url(images/fireee.png);
         }
     }
 }
