@@ -9,15 +9,49 @@
     grid-template-columns: 1% 2fr 2fr 1%;
 
     grid-template-areas:
-    ". header header ."
-    ". nav nav ."
-    ". main side ."
-    ". main2 side2 ."
-    ". footer footer .";
+    ". Header Header ."
+    ". Nav Nav ."
+    ". Kai Kai ."
+    ". Jay Jay ."
+    ". cole cole ."
+    ". Zane Zane ."
+    ". Lloyd Lloyd ."
+    ". Nya Nya ."
 }
 
+#kai{
+
+}
+
+
+#cole{
+
+}
+
+
+#jay{
+
+}
+
+
+#zane{
+
+}
+
+
+#lloyd{
+
+}
+
+
+#nya{
+
+}
+
+
+
 header{
-    grid-area: header;
+    grid-area: Header;
     background-color: rgb(141, 9, 9);
     border:  10px solid rgb(141, 9, 9);
     border-radius: 0px 0px 30px 30px;
@@ -28,17 +62,17 @@ button{
     float: left;
     margin: 8px;
     background-color: brown;
-    color: white;
+    color: rgb(145, 84, 84);
 }
 
 nav{
-    grid-area: nav;
-    background-color: rgb(255, 255, 255);
+    grid-area: Nav;
+    background-color: rgb(141, 9, 9);
 }
 
 
 main{
-    grid-area: main;
+    grid-area: Kai;
     background-color: brown;
     display: flex;
     justify-content: center;
@@ -61,7 +95,7 @@ main img{
 
 
 .main2{
-    grid-area: main2;
+    grid-area: kaiMain2;
     background-color: brown;
     padding: 10px;
   
@@ -69,14 +103,14 @@ main img{
 }
 
 aside{
-    grid-area: side;
+    grid-area: kaiSide;
     background-color: brown;
     padding: 10px;
     
 }
 
 .side2{
-    grid-area: side2;
+    grid-area: kaiSide2;
     background-color: brown;
     border: 3px solid black;
     border-radius: 50%;
@@ -87,7 +121,7 @@ aside{
 }
 
 footer{
-    grid-area: footer;
+    grid-area: kaiFooter;
     background-color: brown;
     
 }
