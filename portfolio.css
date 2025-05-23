@@ -4,9 +4,9 @@
     background-color: brown;
     display: grid;
     min-height: 100vh;
+    grid-template-columns: 1% 1fr 1fr 1%;
+    grid-auto-rows: minmax(200px, auto);
 
-    grid-template-rows: 1.5fr 0.7fr 2.5fr 2.5fr 1fr;
-    grid-template-columns: 1% 2fr 2fr 1%;
 
     grid-template-areas:
     ". Header Header ."
@@ -20,32 +20,52 @@
 }
 
 #kai{
-
+grid-area: Kai;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.kai-image{
+    width: 40%;
+    height: auto;
+    border-style: solid;
+    border-radius: 30%;
+    
 }
 
+.sword-image{
+    
+}
+
+p{
+    padding-left: 20px;
+}
 
 #cole{
-
+    grid-area: cole;
 }
 
 
 #jay{
-
+    grid-area: Jay;
 }
 
 
 #zane{
-
+ grid-area: Zane;
 }
 
 
 #lloyd{
-
+    grid-area: Lloyd;
 }
 
 
 #nya{
-
+    grid-area: Nya;
 }
 
 
@@ -72,11 +92,7 @@ nav{
 
 
 main{
-    grid-area: Kai;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 
